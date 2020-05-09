@@ -1,21 +1,38 @@
 import React from 'react';
 
 
+
 function Cards (){
 
 
 
 return(
 
-
-    <div >
-        <div>
-            <h1>adasdas</h1>
+<div>
+    <ul className="cardsList">
+        <li className="cardsContent">
+            <h1 className="news">Latest News</h1>
+            <span>Lorem ipsum sit amet</span><br></br>
+            <span>Lorem ipum sit amet, .................
+                ..................................
+                .............
+            </span>
+            
+            
+        </li>
+        <li className="cardsContent">
+            <h1>Today's Special</h1>
             <span>asdasd</span>
-            <span>asdasdsdfdf</span>
-        </div>
+            
+        </li>
+        <li className="cardsContent">
+            <h1>Our Location</h1>
+            <span>asdasd</span>
+            
+        </li>
 
-    </div>
+    </ul>
+</div>
 )
 
 
