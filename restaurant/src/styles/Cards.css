@@ -18,11 +18,28 @@
     height: 250px;
     border-style: solid;
     padding: 10px;
+    
+    background-color: rgb(235,235,235);
+    border-color: rgb(179,179,179);
+
 }
 
-.news{
+.cardHeader{
 
-    border-bottom: grey;
+    border-bottom: rgb(179,179,179);
     border-bottom-style: solid;
     border-width: thin;
+    font-size: 15px;
+    color: rgb(48,46,48);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cardsParagraph{
+    margin-top: 10px;
+}
+
+.cardTitle{
+
+    font-weight: 600;
 }
