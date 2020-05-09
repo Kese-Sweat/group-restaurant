@@ -1,9 +1,10 @@
 import React from 'react'
+import NavBan from './NavBan'
 
 export default () => {
   return (
     <div>
-      landing!
+      <NavBan />
     </div>
   )
 }
