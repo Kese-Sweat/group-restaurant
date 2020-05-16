@@ -1,0 +1,9 @@
+.bottomBar {
+    border-top: solid 1px;
+}
+
+.info {
+    padding-top: 28px;
+    padding-bottom: 70px;
+    font-size: 12px;
+}
