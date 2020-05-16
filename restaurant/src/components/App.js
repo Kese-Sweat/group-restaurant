@@ -2,9 +2,9 @@ import React from 'react';
 import '../styles/App.css';
 import { Provider } from 'react-redux'
 import store from '../redux/store'
-import Landing from './Landing'
+import Menu from './Menu'
 export default () => <div>
   <Provider store={store}>
-    <Landing></Landing>
+    <Menu></Menu>
   </Provider>
 </div>
