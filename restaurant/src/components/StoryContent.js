@@ -17,9 +17,17 @@ function StoryContent (){
                 backgroundImage:
                 `url('https://images.unsplash.com/photo-1545659531-9a66f06e260a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')`
             }}>
+                </div>
+        <p>I’ll share a more traditional recipe in the next week or so but I’ve had these seafood cakes on the brain and had to get them out of my system. They’re
+             based on the bouncy fish or prawn cakes found all over East and South East Asia but I’ve added some crab to mine because: crab. The bounciness of these cakes 
+             usually comes from pounding or blending raw fish but since I was using 50/50 raw prawns and cooked crab I also added an egg white to be on the safe side. I’d say the
+              texture is somewhere between springy and soft, which is pretty ideal for a sandwich situation.
 
 
-        </div>
+        </p>
+
+
+       
 
 
 
