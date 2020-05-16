@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../styles/StoryContent.css'
 
 
 function StoryContent (){

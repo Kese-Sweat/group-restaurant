@@ -11,9 +11,11 @@ export default () => {
   return (
     <div>
       <NavBan />
-      <MenuPhotos/>
       <Cards/>
-      <Menu/>
+      <div className="landingFlex">
+        <Menu/>
+        <MenuPhotos/>
+      </div>
       <BottomBar/>
     </div>
   )
