@@ -30,7 +30,7 @@ return(
         <li className="cardsContent">
             
             <h1 className="cardHeader">Today's Special</h1> 
-            <img className="steakImg" src="https://images.unsplash.com/photo-1565299715199-866c917206bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"></img>
+            <img className="steakImg" src="https://images.unsplash.com/photo-1432835305417-6919779246b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"></img>
             <img className="todaysImg" ></img>
             <span className="cardTitle">lorem sum................60</span>
             <p className="cardsParagraph"> Lorem ipum sit amet, .................
