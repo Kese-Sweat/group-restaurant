@@ -1,0 +1,13 @@
+.menu1 {
+    display: flex;
+    list-style: none;
+}
+
+.menu1 li {
+    margin: 20px;
+}
+
+.menu1 .active {
+    color: blue;
+    
+}
