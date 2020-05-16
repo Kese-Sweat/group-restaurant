@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+  }
+
+
+.cardsList{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardsContent{
+
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    padding: 10px;
+    
+    background-color: rgb(235,235,235);
+    border-color: rgb(179,179,179);
+
+}
+
+.cardHeader{
+
+    border-bottom: rgb(179,179,179);
+    border-bottom-style: solid;
+    border-width: thin;
+    font-size: 15px;
+    color: rgb(48,46,48);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cardsParagraph{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.cardTitle{
+
+    font-weight: 600;
+}
+.todaysImg{
+
+}
+
+.steakImg{
+    width: 220px;
+    height: 100px;
+}

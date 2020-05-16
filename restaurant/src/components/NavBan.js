@@ -1,22 +1,33 @@
 import React from 'react'
-import Logo from '../images/logo.svg'
 import { FaTwitterSquare } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
+
+
 import '../styles/NavBan.css'
 
-function NavBan()  {
+function NavBan() {
     return (
         <div className="NavBan">
-            <img className="logo"src={Logo} />
-            <h1>Logo</h1>
-            <FaTwitterSquare />
-            <div className="background" style=
-            {{backgroundImage: 
-            `url("https://images.unsplash.com/photo-1536392706976-e486e2ba97af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")`}}>
+            <div className="navigator">
+                <h1>Logo</h1>
+                <div className="nav-icons">
+                    <FaTwitterSquare />
+                    <FaInstagram />
+                    <FaFacebook />
+                </div>
+            </div>
+            <div
+                className="background"
+                style={{
+                    backgroundImage:
+                        `url("https://images.unsplash.com/photo-1536392706976-e486e2ba97af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")`
+                }}>
 
             </div>
-            
+
         </div>
-        
+
     )
 
 }
