@@ -37,9 +37,18 @@
 
 .cardsParagraph{
     margin-top: 10px;
+    font-size: 12px;
 }
 
 .cardTitle{
 
     font-weight: 600;
+}
+.todaysImg{
+
+}
+
+.steakImg{
+    width: 220px;
+    height: 100px;
 }
