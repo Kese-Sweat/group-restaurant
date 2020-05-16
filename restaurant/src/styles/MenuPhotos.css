@@ -1,0 +1,13 @@
+.background {
+    height: 215px;
+    width: 215px;
+    margin-bottom: 30px;
+    border: solid 1px;
+}
+
+.photosTitle {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
