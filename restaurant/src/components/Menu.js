@@ -12,10 +12,10 @@ export default () => {
                 <li onClick={() => setTab('menuTab')} className={tab === 'menuTab' ? 'active' : '' }>Menu</li>
                 <li onClick={() => setTab('reservations')} className={tab === 'reservations' ? 'active' : '' }>Reservations</li>
             </ul>
-            { tab === 'Our Story' ? <div>A</div> : ''}
-            <div>A</div>
-            <div>B</div>
-            <div>C</div>
+            { tab === 'Our Story' ? <div>a</div>: ''}
+            { tab === 'menuTab' ? <div>b</div>: ''}
+            { tab === 'reservations' ? <div>c</div>: ''}
+            
         </div>
     )
 }
