@@ -10,7 +10,7 @@ function NavBan() {
     return (
         <div className="NavBan">
             <div className="navigator">
-                <h1>Logo</h1>
+                <h1 className="logo">Logo</h1>
                 <div className="nav-icons">
                     <FaTwitterSquare />
                     <FaInstagram />
