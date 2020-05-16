@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/Menu.css'
 import StoryContent from './StoryContent'
+import MenuContent from './MenuContent'
 
 
 export default () => {
@@ -14,7 +15,7 @@ export default () => {
                 <li onClick={() => setTab('reservations')} className={tab === 'reservations' ? 'active' : '' }>Reservations</li>
             </ul>
             { tab === 'Our Story' ? <div><StoryContent/></div>: ''}
-            { tab === 'menuTab' ? <div>b</div>: ''}
+            { tab === 'menuTab' ? <div><MenuContent/></div>: ''}
             { tab === 'reservations' ? <div>c</div>: ''}
             
         </div>
