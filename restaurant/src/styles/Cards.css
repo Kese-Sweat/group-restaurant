@@ -52,3 +52,12 @@
     width: 220px;
     height: 100px;
 }
+
+.story{
+    width: 50%;
+}
+
+.storyPhoto{
+    height: 250px;
+    background-size: cover;
+}
